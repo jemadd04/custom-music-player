@@ -10,10 +10,10 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['Chicago Freestyle', 'Feel No Ways', 'Childs Play'];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
